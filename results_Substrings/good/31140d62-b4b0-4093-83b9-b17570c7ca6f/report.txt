@@ -1,0 +1,20 @@
+faster x 5.229039908698837
+TIME RPNI: 0.7133769035339356 : TIME NAIVE: 3.7302762985229494
+ TIME RPNI: 0.7134 : TIME NAIVE: 3.7303
+ TOTAL seq tested RPNI : 3077.8: TOTAL seq tested NAIVE 8699.6
+ len seq tested RPNI : 23018.4: TOTAL seq tested NAIVE 68746.8
+ spec size 0 
+ bb size 16 
+ outputs blackbox ['4', 'f', '0', '2', '3', '5']
+ input ['a', 'b', 'c']
+RPNI DONE AVG: 7.2
+RPNI DATA SIZE AVG : 102.2
+RPNI DATA LEN AVG : 341.8
+
+
+***************
+
+
+
+***************
+
