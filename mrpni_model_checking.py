@@ -48,17 +48,16 @@ def main():
     while True:
         example = random.choice([
             Examples.ModelCheckingRandomEqualSpecBBParenthesis(),
-            # Examples.ModelCheckingRandomEqualClSpecRamdomBB(bb_size=50, spec_size=20),
-            # Examples.ModelCheckingRandomEqualClSpecRamdomBB(bb_size=70, spec_size=30)
-            # Examples.ModelCheckingRandomBigSpecBBDivisibility(spec_size=100),
-            # Examples.ModelCheckingRandomBigSpecBBDivisibility(spec_size=50),
-            # Examples.ModelCheckingRandomBigSpecBBDivisibility(spec_size=10),
-            # Examples.Divisibility(),
-            # Examples.Parenthesis(),
-            # Examples.SuffixOne(),
-            # Examples.ZeroOneTwo(),
-            # Examples.Substrings(),
-            # Examples.EqualStub()
+            Examples.ModelCheckingRandomEqualClSpecRamdomBB(bb_size=50, spec_size=20),
+            Examples.ModelCheckingRandomBigSpecBBDivisibility(spec_size=100),
+            Examples.ModelCheckingRandomBigSpecBBDivisibility(spec_size=50),
+            Examples.ModelCheckingRandomBigSpecBBDivisibility(spec_size=10),
+            Examples.Divisibility(),
+            Examples.Parenthesis(),
+            Examples.SuffixOne(),
+            Examples.ZeroOneTwo(),
+            Examples.Substrings(),
+            Examples.EqualStub()
         ]
         )
         run_iterations(example=example)
